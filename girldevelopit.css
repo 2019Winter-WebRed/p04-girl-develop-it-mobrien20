@@ -1,0 +1,62 @@
+/*
+* Meaghan O'Brien 
+* 8 May 2019
+* Girl Devlop It
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+/* div will align the logo center of the page */
+
+div.box {
+    text-align: center;
+}
+
+/* If I didn't specify a color for any other parts of my page, i would want the default to be this color */
+body {
+    background-color: #fae2e0; 
+}
+/* The color specificially for where my logo is going */
+header {
+    background-color: #f1636a;
+}
+
+/* My main has the same color as my background and I want to text to go left, well my pictures, as specified later in the code, float right */
+main {
+    background-color: #fae2e0;
+    text-align: left;
+    
+}
+/* These are the fonts for any of my paragraphs. I put all three in case one doesn't show up.*/
+p{font-family: Arial, Helvetica, sans-serif;}
+/* This customizes the way my links are viewed and will draw more attention with the change in color and size when you move your mouse towards the links */
+a:hover, a:focus {
+    color:deeppink;
+    text-decoration: underline;
+    font-size: 28px;
+}
+/* I wanted my images to float right */
+img style {float;right;}
+#laptop {height: 300px
+    width: 350px}
+#laptops {height: 300px
+    width: 350px}
+footer {
+    background-color: #fae2e0;
+}
+/* The h2 was slightly smaller than the h1 and each needed its on section since I labelled both parts in the HTML */
+h1 {
+    font-size:20pt;
+    font-family: cursive;
+}
+h2 {
+    font-size:18pt;
+    font-family: cursive;
+}
+
